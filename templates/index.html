@@ -11,6 +11,23 @@
 
 <body>
 
+    <nav class="navbar">
+    <h2>JS</h2>
+
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="about">
+    <section id="skills">
+        <section id="projects">
+            <section id="contact">
+
+
     <header class="hero">
 
         <img src="{{ url_for('static', filename='profile.png') }}"
@@ -113,24 +130,29 @@
 
     </section>
 
-    <section>
-        <h2>Contact</h2>
+    <section id="contact">
 
-        <p>📧 Email: jayvardhantech.py@gmail.com</p>
+    <h2>Contact</h2>
 
-        <p>
-            💼 LinkedIn:
-            <a href="https://www.linkedin.com/in/jayvardhansingh2210" target="_blank">
-                linkedin.com/in/jayvardhansingh2210 
-            </a>
-        </p>
+    <div class="social-links">
 
-        <p>
-            💻 GitHub:
-            <a href="https://github.com/jaivdn" target="_blank">
-                github.com/jaivdn
-            </a>
-        </p>
+        <a href="https://github.com/jaivdn"
+           target="_blank">
+           💻 GitHub
+        </a>
+
+        <a href="https://www.linkedin.com/in/jayvardhansingh2210"
+           target="_blank">
+           💼 LinkedIn
+        </a>
+
+        <a href="mailto:jayvardhantech.py@gmail.com">
+           📧 Email
+        </a>
+
+    </div>
+
+</section>
 
     </section>
 
