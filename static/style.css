@@ -157,3 +157,9 @@ body {
     font-style: italic;
     padding: 20px;
 }
+
+.card img{
+    max-width:100%;
+    display:block;
+    margin:auto;
+}
