@@ -173,18 +173,3 @@ body {
     font-size:18px;
 }
 
-.share-btn{
-    background:#25D366;
-    color:white;
-    border:none;
-    padding:12px 25px;
-    border-radius:30px;
-    font-size:16px;
-    cursor:pointer;
-    transition:0.3s;
-}
-
-.share-btn:hover{
-    transform:translateY(-3px);
-    box-shadow:0 0 20px rgba(37,211,102,0.5);
-}
