@@ -151,15 +151,10 @@ body {
 
 /* Add this at the bottom */
 
-.thought-card {
-    text-align: center;
-    font-size: 1.1rem;
-    font-style: italic;
-    padding: 20px;
-}
-
-.card img{
-    max-width:100%;
-    display:block;
-    margin:auto;
+.thought-card{
+    text-align:center;
+    font-size:1.1rem;
+    font-style:italic;
+    padding:20px;
+    line-height:1.8;
 }
