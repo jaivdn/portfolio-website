@@ -1,4 +1,4 @@
-<!DOCTYPE pdf>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,23 +22,12 @@
             BCA Student | Web Developer | Python Enthusiast
         </p>
 
+        <a href="{{ url_for('static', filename='resume.pdf') }}"
+           target="_blank"
+           class="btn">
+           📄 View Resume
+        </a>
 
-    <header class="hero">
-
-        <img src="{{ url_for('static', filename='profile.png') }}"
-             alt="Profile Photo">
-
-        <h1>Jayvardhan Singh</h1>
-
-        <p>
-            BCA Student | Web Developer | Python Enthusiast
-        </p>
-
-      <a href="{{ url_for('static', filename='resume.pdf') }}"
-        target="_blank"
-       class="btn">
-       📄 View Resume
-       </a>
     </header>
 
     <section>
@@ -64,7 +53,7 @@
             <div class="bar"><div class="js"></div></div>
         </div>
 
-       <div class="skill">
+        <div class="skill">
             <span>HTML</span>
             <div class="bar"><div class="html"></div></div>
         </div>
@@ -112,7 +101,7 @@
             </div>
 
             <div class="card">
-                <h3>JV player</h3>
+                <h3>JV Player</h3>
                 <p>Media player application built with Python.</p>
             </div>
 
@@ -125,32 +114,36 @@
 
     </section>
 
-<li>Email:
-    <a href="mailto:jayvardhantech.py@gmail.com" target="_blank">
-        jayvardhantech.py@gmail.com
-    </a>
-</li>
+    <section>
+        <h2>Contact</h2>
 
+        <ul>
+            <li>Email:
+                <a href="mailto:jayvardhantech.py@gmail.com">
+                    jayvardhantech.py@gmail.com
+                </a>
+            </li>
 
-   <li>LinkedIn:
-<a href="https://www.linkedin.com/in/jayvardhansingh2210" target="_blank">
-linkedin.com/in/jayvardhansingh2210
-</a>
-</li>
+            <li>LinkedIn:
+                <a href="https://www.linkedin.com/in/jayvardhansingh2210"
+                   target="_blank">
+                    linkedin.com/in/jayvardhansingh2210
+                </a>
+            </li>
 
-<li>GitHub:
-<a href="https://github.com/jaivdn" target="_blank">
-github.com/jaivdn
-</a>
-</li>
-
-</section>
+            <li>GitHub:
+                <a href="https://github.com/jaivdn"
+                   target="_blank">
+                    github.com/jaivdn
+                </a>
+            </li>
+        </ul>
 
     </section>
 
-   <footer>
-    © 2026 Jayvardhan Singh. All Rights Reserved.
-   </footer>
+    <footer>
+        © 2026 Jayvardhan Singh | All Rights Reserved.
+    </footer>
 
 </body>
 </html>
