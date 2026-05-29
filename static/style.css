@@ -139,3 +139,21 @@ footer{
     padding:20px;
     margin-top:20px;
 }
+/* Existing CSS above */
+
+body {
+    margin: 0;
+}
+
+.card {
+    padding: 20px;
+}
+
+/* Add this at the bottom */
+
+.thought-card {
+    text-align: center;
+    font-size: 1.1rem;
+    font-style: italic;
+    padding: 20px;
+}
