@@ -122,6 +122,60 @@
     </div>
 </section>
 
+<section>
+    <h2>🚀 Share My Portfolio</h2>
+
+    <div class="card thought-card">
+
+        <p>
+            If you like my work, feel free to share my portfolio.
+        </p>
+
+        <button class="btn" onclick="sharePortfolio()">
+            🚀 Share Portfolio
+        </button>
+
+    </div>
+</section>
+
+<script>
+function sharePortfolio() {
+    if (navigator.share) {
+        navigator.share({
+            title: 'Jayvardhan Singh Portfolio',
+            text: 'Check out my Portfolio Website',
+            url: 'https://portfolio-website-u9oi.onrender.com'
+        });
+    } else {
+        alert("Sharing is not supported on this device.");
+    }
+}
+</script>
+
+
+
+
+
+
+<section>
+    <h2>🚀 Share My Portfolio</h2>
+
+    <div class="card thought-card">
+
+        <p>
+            Enjoyed exploring my work? Share my portfolio with others.
+        </p>
+
+        <a class="btn"
+           href="https://wa.me/?text=Check%20out%20Jayvardhan%20Singh's%20Portfolio%20Website%20https://portfolio-website-u9oi.onrender.com"
+           target="_blank">
+           📱 Share on WhatsApp
+        </a>
+
+    </div>
+
+</section>
+
 
     </section>
 
